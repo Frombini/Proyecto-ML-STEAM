@@ -17,17 +17,17 @@ def hola():
     return {
             
         'mensaje': 'Bienvinidos a mi API, mi nombre es Francisco Rombini de la academia SOYHENY, de la cohorte DataFT-17',
-        'API1': 'https://proyecto-ml-steam.onrender.com/PlayTimeGenre/genero',
+        'descripcion': 'https://proyecto-ml-steam.onrender.com/PlayTimeGenre/genero',
         'EJ1': 'https://proyecto-ml-steam.onrender.com/PlayTimeGenre/Action',
-        'API2': 'https://proyecto-ml-steam.onrender.com/UserForGenre/genero',
+        'descripcion': 'https://proyecto-ml-steam.onrender.com/UserForGenre/genero',
         'EJ2': 'https://proyecto-ml-steam.onrender.com/UserForGenre/Adventure',
-        'API3': 'https://proyecto-ml-steam.onrender.com/UsersRecommend/anio',
+        'descripcion': 'https://proyecto-ml-steam.onrender.com/UsersRecommend/anio',
         'EJ3': 'https://proyecto-ml-steam.onrender.com/UsersRecommend/2012',
-        'API4': 'https://proyecto-ml-steam.onrender.com/UsersWorstDeveloper/anio',
+        'descripcion': 'https://proyecto-ml-steam.onrender.com/UsersWorstDeveloper/anio',
         'EJ4': 'https://proyecto-ml-steam.onrender.com/UsersWorstDeveloper/anio',
-        'API5': 'https://proyecto-ml-steam.onrender.com/sentiment_analysis/desarrolladora',
+        'descripcion': 'https://proyecto-ml-steam.onrender.com/sentiment_analysis/desarrolladora',
         'EJ5': 'https://proyecto-ml-steam.onrender.com/sentiment_analysis/Valve ',
-        'API6': 'https://proyecto-ml-steam.onrender.com/recomendacion_juego/id_juego',
+        'descripcion': 'https://proyecto-ml-steam.onrender.com/recomendacion_juego/id_juego',
         'EJ6': 'https://proyecto-ml-steam.onrender.com/recomendacion_juego/10'
 
             }
