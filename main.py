@@ -14,7 +14,33 @@ app = FastAPI()
 
 @app.get('/')
 def hola():
-    return {'Esta es mi APi, Soy Francisco Rombini'}
+    return {'Bienvinidos a mi API, mi nombre es Francisco Rombini de la academia SOYHENY, de la cohorte DataFT-17'
+            
+            'API1 : https://proyecto-ml-steam.onrender.com/PlayTimeGenre/genero'
+
+                   'EJ:https://proyecto-ml-steam.onrender.com/PlayTimeGenre/Action'
+
+            'API2 : https://proyecto-ml-steam.onrender.com/UserForGenre/genero'
+
+                    'EJ:https://proyecto-ml-steam.onrender.com/UserForGenre/Adventure'
+
+            'API3 : https://proyecto-ml-steam.onrender.com/UsersRecommend/anio'
+
+                    'EJ:https://proyecto-ml-steam.onrender.com/UsersRecommend/2012'
+
+            'API4 : https://proyecto-ml-steam.onrender.com/UsersWorstDeveloper/anio'
+
+                    'EJ:https://proyecto-ml-steam.onrender.com/UsersWorstDeveloper/anio'
+
+            'API5 : https://proyecto-ml-steam.onrender.com/sentiment_analysis/desarrolladora'
+
+                    'EJ:https://proyecto-ml-steam.onrender.com/sentiment_analysis/Valve '
+
+            'API6 : https://proyecto-ml-steam.onrender.com/recomendacion_juego/id_juego'
+
+                    'EJ:https://proyecto-ml-steam.onrender.com/recomendacion_juego/10'
+            
+            }
 
 @app.get("/PlayTimeGenre/{genero}")
 async def user(genero: str):

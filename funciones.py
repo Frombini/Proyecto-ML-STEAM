@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 '''1.def PlayTimeGenre( genero : str ): Debe devolver año con mas horas jugadas para dicho género.
-Ejemplo de retorno: {"Año de lanzamiento con más horas jugadas para Género X" : 2013}'''
+    Ejemplo de retorno: {"Año de lanzamiento con más horas jugadas para Género X" : 2013}'''
 
 def PlayTimeGenre(genero):
     # Leemos el archivo consulta1.csv para utilizar la funcion
@@ -27,6 +27,9 @@ def PlayTimeGenre(genero):
 
     return result
 
+'''2. def UserForGenre( genero : str ): Debe devolver el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año.
+    Ejemplo de retorno: {"Usuario con más horas jugadas para Género X" : us213ndjss09sdf, "Horas jugadas":[{Año: 2013, Horas: 203}, {Año: 2012, Horas: 100}, {Año: 2011, Horas: 23}]}'''
+
 def UserForGenre(genero:str):
     consulta2 = pd.read_csv('consulta2.csv')
     # Filtrar el DataFrame por el género dado
@@ -50,6 +53,9 @@ def UserForGenre(genero:str):
 
     return result
 
+'''3. def UsersRecommend( año : int ): Devuelve el top 3 de juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos/neutrales)
+    Ejemplo de retorno: [{"Puesto 1" : X}, {"Puesto 2" : Y},{"Puesto 3" : Z}]'''
+
 def UsersRecommend(anio: int):
     # Leemos el archivo consulta1.csv para utilizar la funcion
     consulta3 = pd.read_csv('consulta3.csv')
@@ -69,6 +75,9 @@ def UsersRecommend(anio: int):
 
     return retorno
 
+'''4. def UsersWorstDeveloper( año : int ): Devuelve el top 3 de desarrolladoras con juegos MENOS recomendados por usuarios para el año dado. (reviews.recommend = False y comentarios negativos)
+    Ejemplo de retorno: [{"Puesto 1" : X}, {"Puesto 2" : Y},{"Puesto 3" : Z}]'''
+
 
 def UsersWorstDeveloper(anio):
     consulta4 = pd.read_csv('consulta4.csv')
@@ -86,6 +95,9 @@ def UsersWorstDeveloper(anio):
     result = [{"Puesto {}: {}".format(i + 1, row['Developer'])} for i, row in top_worst.iterrows()]
 
     return result
+
+'''5. def sentiment_analysis( empresa desarrolladora : str ): Según la empresa desarrolladora, se devuelve un diccionario con el nombre de la desarrolladora como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor.
+    Ejemplo de retorno: {'Valve' : [Negative = 182, Neutral = 120, Positive = 278]}'''
  
 def sentiment_analysis(desarrolladora:str):
     consulta5 = pd.read_csv('consulta5.csv')
@@ -102,6 +114,9 @@ def sentiment_analysis(desarrolladora:str):
     # Creamos el diccionario de retorno
     result = {desarrolladora: f"[Negative = {sentiment_counts.get(0, 0)}, Neutral = {sentiment_counts.get(1, 0)}, Positive = {sentiment_counts.get(2, 0)}]"}
     return result
+
+'''Sistema de recomendación item-item:
+    6. def recomendacion_juego( id de producto ): Ingresando el id de producto, deberíamos recibir una lista con 5 juegos recomendados similares al ingresado.'''
 
 def recomendacion_juego(id_juego):
     # Cargamos el csv de consulta6 para alimentar la funcion
