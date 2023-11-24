@@ -24,7 +24,7 @@ def hola():
         
         'EJ3': 'https://proyecto-ml-steam.onrender.com/UsersRecommend/2012',
         
-        'EJ4': 'https://proyecto-ml-steam.onrender.com/UsersWorstDeveloper/anio',
+        'EJ4': 'https://proyecto-ml-steam.onrender.com/UsersWorstDeveloper/2014',
         
         'EJ5': 'https://proyecto-ml-steam.onrender.com/sentiment_analysis/Valve ',
 
