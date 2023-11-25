@@ -16,7 +16,7 @@ app = FastAPI()
 def hola():
     return {
             
-        'mensaje': 'Bienvinidos a mi API, mi nombre es Francisco Rombini de la academia SOYHENY, de la cohorte DataFT-17',
+        'mensaje': 'Bienvinidos a mi API, mi nombre es Francisco Rombini de la academia SOYHENRY, de la cohorte DataFT-17',
         
         'EJ1': 'https://proyecto-ml-steam.onrender.com/PlayTimeGenre/Action',
         
