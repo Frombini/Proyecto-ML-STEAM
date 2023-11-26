@@ -100,10 +100,11 @@ Estableceremos una infraestructura de MLOps para navegar sin problemas por todas
   
 - Aclaracion:
 
-  Para poder correr el 1-ETL-EDA.ipynb hay que descargar los JSON que contiene la informacion en bruto del proyecto y colocarlo dentro de la carpeta. 
-Enlace para descarga de los archivos JSON
+  Para poder correr el 1-ETL-EDA.ipynb hay que descargar los JSON que contiene la informacion en bruto del proyecto y colocarlo        dentro de la carpeta.
+  
+  Enlace para descarga de los archivos JSON
 
-https://drive.google.com/drive/folders/1VUSnjqYKaTzJ24kreKPwDhcEiu-_6IPG?usp=drive_link
+  https://drive.google.com/drive/folders/1VUSnjqYKaTzJ24kreKPwDhcEiu-_6IPG?usp=drive_link
 
 
 ## Pila de Tecnologías
