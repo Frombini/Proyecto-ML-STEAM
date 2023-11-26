@@ -75,22 +75,26 @@ Estableceremos una infraestructura de MLOps para navegar sin problemas por todas
 
 - Preprocesamiento de datos y analisis exploratorio de las base:
   
-  [Análisis Exploratorio](Análisis_Exploratorio.ipynb)
-  [Análisis Exploratorio](Análisis_Exploratorio.ipynb)
-  [Análisis Exploratorio](Análisis_Exploratorio.ipynb)
-
+  [1-ETL-EDA](1-ETL-EDA.ipynb)
+  [2-ETL-Consultas](2-ETL-Consultas.ipynb)
 
 - Desarrolo del modelo de aprendizaje:
 
-  [Análisis Exploratorio](Análisis_Exploratorio.ipynb)
+  [3-Modelo Machine Learning](3-Modelo-ML.ipynb)
 
 
 - Desarrollo de funciones y API's:
 
-- Aclaracion:
-  Para poder correr el 1-ETL-EDA.ipynb hay que descargar los JSON que contiene la informacion en bruto del proyecto y colocarlo dentro de la carpeta. 
+  [Prueba de las funciones](Prueba_Funciones.ipynb)
+  [Funciones API](funciones.py)
+  [Main Funciones](main.py)
+  [Requerimientos](requirements.txt)
 
+- Aclaracion:
+- 
+  Para poder correr el 1-ETL-EDA.ipynb hay que descargar los JSON que contiene la informacion en bruto del proyecto y colocarlo dentro de la carpeta. 
 Enlace para descarga de los archivos JSON
+
 https://drive.google.com/drive/folders/1VUSnjqYKaTzJ24kreKPwDhcEiu-_6IPG?usp=drive_link
 
 
