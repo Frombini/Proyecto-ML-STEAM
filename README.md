@@ -47,27 +47,27 @@ Importante:El MVP tiene que ser una API que pueda ser consumida segun los criter
 Deployment: Conoces sobre Render y tienes un tutorial de Render que te hace la vida mas fácil. También podrías usar Railway, o cualquier otro servicio que permita que la API pueda ser consumida desde la web.
 
 ## Obejtivos
+
 Queremos desarrollar y desplegar un sistema de recomendacion de juegos, teniendo endopints que se consumen online y pueden responder las funciones que nos pidieron para desarrollar
 Esto lo vamos a hacer aprovechando los conjuntos de datos y nos enfocaremos en lograr los siguientes hitos específicos:
 
 Transformación y Limpieza de Datos
 
-Aplicaremos técnicas de Extracción, Transformación y Carga (ETL)  y análisis Exploratorio de Datos (EDA)
+Aplicaremos técnicas de Extracción, Transformación y Carga (ETL) y análisis Exploratorio de Datos (EDA)
 
 Diseñaremos e implementaremos una API que será consumida online para responder las necesidades antes mencionadas.
 
 Modelo de Aprendizaje Automático
 
-Desarrollaremos un modelo de aprendizaje automático que va a predecir con precisión los precios de los juegos basándose en sus características únicas.
+Desarrollaremos un modelo de aprendizaje automático que va a predecir con precisión una recomendacion para juegos, donde agregando el id del item del tipo que queremos que nos recomiende, nos devolvera una lista con los 5 juegos recomendados por el genero del juego agregado.
+
 Despliegue de la API
 
-Llevaremos nuestra creación al escenario, implementando la API en un entorno de producción. Queremos que sea accesible para todos, aplicando las mejores prácticas para garantizar un rendimiento óptimo.
+Implementaremos la API en un entorno de producción. Queremos que sea accesible para todos, aplicando buenas prácticas para garantizar un rendimiento óptimo.
+
 MLOps: Gestión Eficiente
 
 Estableceremos una infraestructura de MLOps para navegar sin problemas por todas las etapas de este emocionante proyecto. Desde la transformación de datos hasta el despliegue, estamos comprometidos con una operación eficiente y sin contratiempos.
-
-El Desafío de Steam: Crear un Mundo de Recomendaciones
-Steam nos desafía a construir un sistema de recomendación de videojuegos que eleve la experiencia de sus usuarios. Este no es solo un proyecto; es nuestra oportunidad de hacer magia en el mundo de los juegos.
 
 ## Ámbito de Proyecto
 
