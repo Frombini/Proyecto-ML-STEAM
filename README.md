@@ -47,7 +47,9 @@ Ejemplo de retorno: {'Valve' : [Negative = 182, Neutral = 120, Positive = 278]}
 Sistema de recomendación item-item:
     def recomendacion_juego( id de producto ): Ingresando el id de producto, deberíamos recibir una lista con 5 juegos recomendados similares al ingresado.
 
-Importante:El MVP tiene que ser una API que pueda ser consumida segun los criterios de API REST o RESTful desde cualquier dispositivo conectado a internet. Algunas herramientas como por ejemplo, Streamlit, si bien pueden brindar una interfaz de consulta, no cumplen con las condiciones para ser consideradas una API, sin workarounds.
+Importante:
+
+El MVP tiene que ser una API que pueda ser consumida segun los criterios de API REST o RESTful desde cualquier dispositivo conectado a internet. Algunas herramientas como por ejemplo, Streamlit, si bien pueden brindar una interfaz de consulta, no cumplen con las condiciones para ser consideradas una API, sin workarounds.
 Deployment: Conoces sobre Render y tienes un tutorial de Render que te hace la vida mas fácil. También podrías usar Railway, o cualquier otro servicio que permita que la API pueda ser consumida desde la web.
 
 ## Obejtivos
