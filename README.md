@@ -121,37 +121,37 @@ Estableceremos una infraestructura de MLOps para navegar sin problemas por todas
 
 ## Pasos realizados para el proyecto
 
-ETL (Extract, Transform, Load) y EDA (Exploratory Data Analysis)
+- ETL (Extract, Transform, Load) y EDA (Exploratory Data Analysis)
 
 En esta fase del proyecto, se llevaron a cabo las siguientes actividades:
 
-    Extracción de Datos (Extract): Se Extrageron los datos que nos proporcionaron en Formato JSON. Son 3 bases con informacion de los juegos de Steam, Reviews y datos de usuarios.
+Extracción de Datos (Extract): Se Extrageron los datos que nos proporcionaron en Formato JSON. Son 3 bases con informacion de los juegos de Steam, Reviews y datos de usuarios.
 
-    Transformación de Datos (Transform): Los datos fueron procesados y transformados para asegurar la coherencia y la integridad. Esto incluyó la limpieza de datos, la estandarización de formatos, tipos de datos y la manipulación de variables para prepararlos para el análisis.
+Transformación de Datos (Transform): Los datos fueron procesados y transformados para asegurar la coherencia y la integridad. Esto incluyó la limpieza de datos, la estandarización de formatos, tipos de datos y la manipulación de variables para prepararlos para el análisis.
 
-    Carga de Datos (Load): Los datos transformados fueron cargados en el entorno de trabajo,en formato .csv y cargados en github, para facilitar su acceso y análisis posterior.
+Carga de Datos (Load): Los datos transformados fueron cargados en el entorno de trabajo,en formato .csv y cargados en github, para facilitar su acceso y análisis posterior.
 
-    Análisis Exploratorio de Datos (EDA): Se llevó a cabo un análisis exploratorio para comprender mejor la naturaleza de los datos. Esto incluyó la visualización de patrones, la identificación de tendencias y la detección de posibles relaciones entre variables clave.
+Análisis Exploratorio de Datos (EDA): Se llevó a cabo un análisis exploratorio para comprender mejor la naturaleza de los datos. Esto incluyó la visualización de patrones, la identificación de tendencias y la detección de posibles relaciones entre variables clave.
 
-Machine Learning:
+- Machine Learning:
 
 En la fase de Machine Learning, se realizaron los siguientes pasos:
 
-    Selección de Modelos: Se selecciono el modelo de machine learning de relacion item-item, y se analizaron las bases propuestas para generear una solucion específica.
+Selección de Modelos: Se selecciono el modelo de machine learning de relacion item-item, y se analizaron las bases propuestas para generear una solucion específica.
 
-    Entrenamiento del Modelo: Los modelos seleccionados fueron entrenados utilizando los datos previamente procesados durante la fase ETL. Se llevaron a cabo ajustes y optimizaciones para mejorar el rendimiento del modelo.
+Entrenamiento del Modelo: Los modelos seleccionados fueron entrenados utilizando los datos previamente procesados durante la fase ETL. Se llevaron a cabo ajustes y optimizaciones para mejorar el rendimiento del modelo.
 
-    Validación del Modelo: Se realizaron pruebas y validaciones cruzadas para evaluar la precisión y la generalización del modelo en conjuntos de datos independientes.
+Validación del Modelo: Se realizaron pruebas y validaciones cruzadas para evaluar la precisión y la generalización del modelo en conjuntos de datos independientes.
 
-    Optimización del Modelo: Se realizaron ajustes adicionales para optimizar el modelo.
+Optimización del Modelo: Se realizaron ajustes adicionales para optimizar el modelo.
 
-Deployment y API:
+- Deployment y API:
 
-    Montaje de la API (Local): Se implementó  un entorno virtual para permitir la interacción con el modelo de machine learning y las consultas antes pedidas.
+Montaje de la API (Local): Se implementó  un entorno virtual para permitir la interacción con el modelo de machine learning y las consultas antes pedidas.
 
-    Despliegue en Render (Deploy-Render): Se procedió al despliegue de la API en un entorno de producción utilizando las plataformas Render y github en la nube. Esto permitió que la funcionalidad estuviera disponible de manera accesible para usuarios finales.
+Despliegue en Render (Deploy-Render): Se procedió al despliegue de la API en un entorno de producción utilizando las plataformas Render y github en la nube. Esto permitió que la funcionalidad estuviera disponible de manera accesible para usuarios finales.
 
-    Monitoreo y Mantenimiento: Se probaron tanto el modelo como los endpoints para chequear su rendimiento y velocidad de respuesta  en tiempo real de la API desplegada. 
+Monitoreo y Mantenimiento: Se probaron tanto el modelo como los endpoints para chequear su rendimiento y velocidad de respuesta  en tiempo real de la API desplegada. 
     
 ## Colaboradores
 
