@@ -2,8 +2,6 @@
 
 ![steam_1](https://github.com/Frombini/Proyecto-ML-STEAM/assets/137807368/5bc892bc-8922-4490-ae9d-619258565383)
 
-## Index
-
 ## Introduccion
 
 Bienvenidos al proyecto de Machine learning de Steam.
