@@ -73,6 +73,23 @@ Estableceremos una infraestructura de MLOps para navegar sin problemas por todas
 
 ## Ámbito de Proyecto
 
+- Preprocesamiento de datos y analisis exploratorio de las base:
+  
+  [Análisis Exploratorio](Análisis_Exploratorio.ipynb)
+  [Análisis Exploratorio](Análisis_Exploratorio.ipynb)
+  [Análisis Exploratorio](Análisis_Exploratorio.ipynb)
+
+
+- Desarrolo del modelo de aprendizaje:
+
+  [Análisis Exploratorio](Análisis_Exploratorio.ipynb)
+
+
+- Desarrollo de funciones y API's:
+
+- Aclaracion:
+  Para poder correr el 1-ETL-EDA.ipynb hay que descargar los JSON que contiene la informacion en bruto del proyecto y colocarlo dentro de la carpeta. 
+
 Enlace para descarga de los archivos JSON
 https://drive.google.com/drive/folders/1VUSnjqYKaTzJ24kreKPwDhcEiu-_6IPG?usp=drive_link
 
