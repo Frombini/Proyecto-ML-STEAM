@@ -6,7 +6,8 @@
 
 ## Introduccion
 
-Bienvenidos al proyecto de Machine learning de Steam. nuestro desafio planteado para este proyecto consiste en desarrollar un proceso de MLOs que incluya etapas de Ingeniería de Datos con Extraction, Transform and Load (ETL), pasando al Machine Learning, con Exploratory Data Analysis (EDA), junto con la exploración y entrenamiento de modelos, finalizando con el deployment tanto del modelo como endpoints.
+Bienvenidos al proyecto de Machine learning de Steam. 
+Nuestro desafio planteado para este proyecto consiste en desarrollar un proceso de MLOs que incluya etapas de Ingeniería de Datos con Extraction, Transform and Load (ETL), pasando al Machine Learning, con Exploratory Data Analysis (EDA), junto con la exploración y entrenamiento de modelos, finalizando con el deployment tanto del modelo como endpoints.
 
 ## Rol a Desarrollar
 
