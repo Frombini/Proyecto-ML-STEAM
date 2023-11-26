@@ -80,6 +80,7 @@ Estableceremos una infraestructura de MLOps para navegar sin problemas por todas
 - Preprocesamiento de datos y analisis exploratorio de las base:
   
   [1-ETL-EDA](1-ETL-EDA.ipynb)
+  
   [2-ETL-Consultas](2-ETL-Consultas.ipynb)
 
 - Desarrolo del modelo de aprendizaje:
@@ -90,12 +91,15 @@ Estableceremos una infraestructura de MLOps para navegar sin problemas por todas
 - Desarrollo de funciones y API's:
 
   [Prueba de las funciones](Prueba_Funciones.ipynb)
+  
   [Funciones API](funciones.py)
+  
   [Main Funciones](main.py)
+  
   [Requerimientos](requirements.txt)
-
+  
 - Aclaracion:
-- 
+
   Para poder correr el 1-ETL-EDA.ipynb hay que descargar los JSON que contiene la informacion en bruto del proyecto y colocarlo dentro de la carpeta. 
 Enlace para descarga de los archivos JSON
 
