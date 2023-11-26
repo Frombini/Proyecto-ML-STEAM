@@ -39,16 +39,18 @@ montar api (local api, deploy-Render)
 entrenamiento de los datos
 
 ## Colaboradores
+-colaboradores : Gabriel Veron, , Juan Ochoa, Lucas Koch
 
 Quiero agradecer a mis compañeros de Cohorte que me ayudaron en este proceso:
 
-[<img src="https://avatars.githubusercontent.com/JohannaRangel" width=115><br><sub>Johanna Rangel</sub>](https://github.com/JohannaRangel) | 
+| [<img src="https://avatars.githubusercontent.com/JohannaRangel" width=115><br><sub>Johanna Rangel</sub>](https://github.com/JohannaRangel) | 
 [<img src="https://avatars.githubusercontent.com/u/137807368?v=4" width=115><br><sub>Uriel Cercero</sub>](https://github.com/JUrielCerecero) |  
 [<img src="https://avatars.githubusercontent.com/u/120042696?v=4" width=115><br><sub>Gretel Sanchez</sub>](https://github.com/KGSanchezM) |
-[<img src="https://avatars.githubusercontent.com/JohannaRangel" width=115><br><sub>Gabriel Veron</sub>](https://github.com/JohannaRangel) | 
+| --- | --- | --- |
+| [<img src="https://avatars.githubusercontent.com/JohannaRangel" width=115><br><sub>Gabriel Veron</sub>](https://github.com/JohannaRangel) | 
 [<img src="https://avatars.githubusercontent.com/u/137807368?v=4" width=115><br><sub>Juan Ochoa</sub>](https://github.com/JUrielCerecero) |  
 [<img src="https://avatars.githubusercontent.com/u/120042696?v=4" width=115><br><sub>Lucas Koch</sub>](https://github.com/KGSanchezM) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
 
--colaboradores : Gabriel Veron, , Juan Ochoa, Lucas Koch
+
+
 
