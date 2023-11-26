@@ -42,14 +42,16 @@ entrenamiento de los datos
 -colaboradores : Gabriel Veron, , Juan Ochoa, Lucas Koch
 
 Quiero agradecer a mis compañeros de Cohorte que me ayudaron en este proceso:
+Agradezco a mis compañeros de Cohorte que me ayudaron en este proceso:
 
-| [<img src="https://avatars.githubusercontent.com/JohannaRangel" width=115><br><sub>Johanna Rangel</sub>](https://github.com/JohannaRangel) | 
-[<img src="https://avatars.githubusercontent.com/u/137807368?v=4" width=115><br><sub>Uriel Cercero</sub>](https://github.com/JUrielCerecero) |  
-[<img src="https://avatars.githubusercontent.com/u/120042696?v=4" width=115><br><sub>Gretel Sanchez</sub>](https://github.com/KGSanchezM) |
+| Johanna Rangel | Uriel Cercero | Gretel Sanchez |
 | --- | --- | --- |
-| [<img src="https://avatars.githubusercontent.com/JohannaRangel" width=115><br><sub>Gabriel Veron</sub>](https://github.com/JohannaRangel) | 
-[<img src="https://avatars.githubusercontent.com/u/137807368?v=4" width=115><br><sub>Juan Ochoa</sub>](https://github.com/JUrielCerecero) |  
-[<img src="https://avatars.githubusercontent.com/u/120042696?v=4" width=115><br><sub>Lucas Koch</sub>](https://github.com/KGSanchezM) |
+| ![Johanna Rangel](https://avatars.githubusercontent.com/JohannaRangel) | ![Uriel Cercero](https://avatars.githubusercontent.com/u/137807368?v=4) | ![Gretel Sanchez](https://avatars.githubusercontent.com/u/120042696?v=4) |
+
+| Gabriel Veron | Juan Ochoa | Lucas Koch |
+| --- | --- | --- |
+| ![Gabriel Veron](https://avatars.githubusercontent.com/JohannaRangel) | ![Juan Ochoa](https://avatars.githubusercontent.com/u/137807368?v=4) | ![Lucas Koch](https://avatars.githubusercontent.com/u/120042696?v=4) |
+
 
 
 
