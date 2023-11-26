@@ -43,15 +43,9 @@ entrenamiento de los datos
 
 Quiero agradecer a mis compañeros de Cohorte que me ayudaron en este proceso:
 
-Agradezco a mis compañeros de Cohorte que me ayudaron en este proceso:
-
 | Johanna Rangel | Uriel Cercero | Gretel Sanchez |
 | --- | --- | --- |
-| [<img src="https://avatars.githubusercontent.com/JohannaRangel" width=75><br><sub>Johanna Rangel</sub>](https://github.com/JohannaRangel) | [<img src="[https://avatars.githubusercontent.com/u/137807368?v=4](https://avatars.githubusercontent.com/u/121000341?v=4)" width=75><br><sub>Uriel Cercero</sub>](https://github.com/JUrielCerecero) | [<img src="https://avatars.githubusercontent.com/u/120042696?v=4" width=75><br><sub>Gretel Sanchez</sub>](https://github.com/KGSanchezM) |
-
-
-
-
+| [<img src="https://avatars.githubusercontent.com/JohannaRangel" width=75><br><sub>Johanna Rangel</sub>](https://github.com/JohannaRangel) | [<img src="https://avatars.githubusercontent.com/u/121000341?v=4" width=75><br><sub>Uriel Cercero</sub>](https://github.com/JUrielCerecero) | [<img src="https://avatars.githubusercontent.com/u/120042696?v=4" width=75><br><sub>Gretel Sanchez</sub>](https://github.com/KGSanchezM)
 
 
 
