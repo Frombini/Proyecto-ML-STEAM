@@ -6,6 +6,8 @@
 
 ## Introduccion
 
+Bienvenidos al proyecto de Machine learning de Steam. nuestro desafio planteado para este proyecto consiste en desarrollar un proceso de MLOs que incluya etapas de Ingeniería de Datos con Extraction, Transform and Load (ETL), pasando al Machine Learning, con Exploratory Data Analysis (EDA), junto con la exploración y entrenamiento de modelos, finalizando con el deployment tanto del modelo como endpoints.
+
 ## Rol a Desarrollar
 
 Empezaste a trabajar como Data Scientist en Steam, una plataforma multinacional de videojuegos. Vas a crear tu primer modelo de ML que soluciona un problema de negocio: Steam pide que te encargues de crear un sistema de recomendación de videojuegos para usuarios.
