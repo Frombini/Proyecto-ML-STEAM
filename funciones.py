@@ -10,7 +10,7 @@ def PlayTimeGenre(genero):
     # Filtrar el DataFrame para el género específico
     filtered_df = consulta1[consulta1['Genres'] == genero]
 
-    if len(filtered_df) == 0:
+    if filtered_df.empty:
         return {"Género no encontrado en el conjunto de datos"}
 
     # Agrupar por año de lanzamiento y sumar las horas jugadas
@@ -34,9 +34,6 @@ def UserForGenre(genero:str):
     consulta2 = pd.read_csv('consulta2.csv')
     # Filtrar el DataFrame por el género dado
     genre_data = consulta2[consulta2['Genres'] == genero]
-
-    if type(genero)!= str or len(genero)==0:
-        return "Debes colocar un genero en sting. EJ:Action"    
 
     # Encontrar al usuario con más horas jugadas para ese género
     top_user = genre_data.loc[genre_data['PlaytimeForever'].idxmax()]['UserId']
@@ -62,7 +59,7 @@ def UserForGenre(genero:str):
 def UsersRecommend(anio: int):
     # Leemos el archivo consulta1.csv para utilizar la funcion
     consulta3 = pd.read_csv('consulta3.csv')
-    if type(anio) != int or len(anio)==0:
+    if type(anio) != int:
         return {"Debes colocar el año en entero, EJ:2015"}
     if anio < consulta3['YearPosted'].min() or anio > consulta3['YearPosted'].max():
         return {"Año no encontrado en el conjunto de datos"}
@@ -84,7 +81,7 @@ def UsersRecommend(anio: int):
 
 def UsersWorstDeveloper(anio):
     consulta4 = pd.read_csv('consulta4.csv')
-    if type(anio) != int or len(anio)==0:
+    if type(anio) != int:
         return {"Debes colocar el año en entero, EJ:2015"}
     if anio < consulta4['YearPosted'].min() or anio > consulta4['YearPosted'].max():
         return {"Año no encontrado en el conjunto de datos"}
@@ -105,7 +102,7 @@ def UsersWorstDeveloper(anio):
 def sentiment_analysis(desarrolladora:str):
     consulta5 = pd.read_csv('consulta5.csv')
     if type(desarrolladora) != str:
-        return "Debes colocar un desarrollador de tipo string, EJ:Valve"
+        return "Debes colocar un desarrollador de tipo str, EJ:'Valve'"
     if len(desarrolladora) == 0:
         return "Debes poner un desarrolador en tipo String"
     # Filtramos el DataFrame para la empresa desarrolladora especificada
@@ -126,9 +123,6 @@ def recomendacion_juego(id_juego):
     modelo_df = pd.read_csv('consulta6.csv')
     # Buscar el índice del juego con la ID dada
     indice_juego = modelo_df[modelo_df["ItemId"] == id_juego].index[0]
-    
-    if len(id_juego)==0 or id_juego!=int:
-        return 'Debes colocar un año valido. EJ:2015'
 
     # Obtener las recomendaciones para ese juego
     recomendaciones = modelo_df.iloc[indice_juego]["RecomendacionesTop5"]
