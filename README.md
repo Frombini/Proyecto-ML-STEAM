@@ -166,6 +166,6 @@ Quiero agradecer a mis compañeros de Cohorte que me ayudaron en este proceso de
 | [<img src="https://avatars.githubusercontent.com/JohannaRangel" width=75><br><sub>Johanna Rangel</sub>](https://github.com/JohannaRangel) | [<img src="https://avatars.githubusercontent.com/u/121000341?v=4" width=75><br><sub>Uriel Cercero</sub>](https://github.com/JUrielCerecero) | [<img src="https://avatars.githubusercontent.com/u/120042696?v=4" width=75><br><sub>Gretel Sanchez</sub>](https://github.com/KGSanchezM)
 
 
-| Lucas Koch | Uriel Cercero | Gretel Sanchez |
+| Lucas Koch | Gabriel Veron | Juan Ochoa |
 | --- | --- | --- |
-| [<img src="https://avatars.githubusercontent.com/lucasgkoch" width=75><br><sub>Lucas Koch</sub>](https://github.com/lucasgkoch) | [<img src="https://avatars.githubusercontent.com/u/121000341?v=4" width=75><br><sub>Uriel Cercero</sub>](https://github.com/JUrielCerecero) | [<img src="https://avatars.githubusercontent.com/u/120042696?v=4" width=75><br><sub>Gretel Sanchez</sub>](https://github.com/KGSanchezM)
+| [<img src="https://avatars.githubusercontent.com/lucasgkoch" width=75><br><sub>Lucas Koch</sub>](https://github.com/lucasgkoch) | [<img src="https://avatars.githubusercontent.com/u/121000341?v=4" width=75><br><sub>Gabriel Veron</sub>](https://github.com/JUrielCerecero) | [<img src="https://avatars.githubusercontent.com/u/120042696?v=4" width=75><br><sub>Juan Ochoa</sub>](https://github.com/KGSanchezM)
