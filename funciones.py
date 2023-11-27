@@ -82,7 +82,7 @@ def UserForGenre(genero:str):
     Ejemplo de retorno: [{"Puesto 1" : X}, {"Puesto 2" : Y},{"Puesto 3" : Z}]'''
 
 def UsersRecommend(anio:int):
-    # Leemos el archivo consulta1.csv para utilizar la funcion
+    # Leemos el archivo consulta3.csv para utilizar la funcion
     consulta3 = pd.read_csv('consulta3.csv')
     if type(anio) != int:
         return {"Debes colocar el año en entero, EJ:2015"}

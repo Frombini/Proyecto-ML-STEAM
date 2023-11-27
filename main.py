@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 import pandas as pd
 import json
 import numpy as np
@@ -95,18 +95,18 @@ async def user_for_genre(genero:str):
 @app.get("/UsersRecommend/{anio}")
 async def users_recommend(anio:int):
     try:
-        resultado = UsersRecommend(anio)
-        return resultado
-    except Exception as e:
-        return {"error": str(e)}
+        result = UsersRecommend(anio)
+        return result
+    except ValueError:
+        raise HTTPException(status_code=400, detail="El año debe ser un número entero")
     
 @app.get("/UsersWorstDeveloper/{anio}")
 async def users_worst_developer(anio:int):
     try:
-        resultado = UsersWorstDeveloper(anio)
-        return resultado
-    except Exception as e:
-        return {"error": str(e)}  
+        result = UsersRecommend(anio)
+        return result
+    except ValueError:
+        raise HTTPException(status_code=400, detail="El año debe ser un número entero")  
     
 
 @app.get("/sentiment_analysis/{desarrolladora}")
