@@ -178,4 +178,6 @@ Atentamente, Francisco Rombini
 
 | Lucas Koch | Gabriel Veron | Juan Ochoa |
 | --- | --- | --- |
-| [<img src="https://avatars.githubusercontent.com/lucasgkoch" width=75><br><sub>Lucas Koch</sub>](https://github.com/lucasgkoch) | [<img src="[https://avatars.githubusercontent.com/u/121000341?v=4](https://media.licdn.com/dms/image/C4E03AQEYTrVlShZXCw/profile-displayphoto-shrink_400_400/0/1643811606264?e=1706745600&v=beta&t=BgB0r6dSkDZH5Vvwvl-h99-LVfMBhmXm34ifGmPD-F0)" width=75><br><sub>Gabriel Veron</sub>]([https://github.com/JUrielCerecero](https://www.linkedin.com/in/eduardo-gabriel-ver%C3%B3n-86897a230/?originalSubdomain=ar)) | [<img src="https://avatars.githubusercontent.com/u/120042696?v=4" width=75><br><sub>Juan Ochoa</sub>](https://github.com/KGSanchezM)
+| [<img src="https://avatars.githubusercontent.com/lucasgkoch" width=75><br><sub>Lucas Koch</sub>](https://github.com/lucasgkoch) |
+[<img src="[https://avatars.githubusercontent.com/u/121000341?v=4](https://media.licdn.com/dms/image/C4E03AQEYTrVlShZXCw/profile-displayphoto-shrink_400_400/0/1643811606264?e=1706745600&v=beta&t=BgB0r6dSkDZH5Vvwvl-h99-LVfMBhmXm34ifGmPD-F0)" width=75><br><sub>Uriel Cercero</sub>]([https://github.com/JUrielCerecero](https://www.linkedin.com/in/eduardo-gabriel-ver%C3%B3n-86897a230/?originalSubdomain=ar)) |
+[<img src="https://avatars.githubusercontent.com/u/121000341?v=4" width=75><br><sub>Uriel Cercero</sub>](https://github.com/JUrielCerecero) |
