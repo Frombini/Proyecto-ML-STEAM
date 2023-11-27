@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import numpy as np
 from fastapi.responses import JSONResponse
+from fastapi.responses import HTMLResponse
 from funciones import PlayTimeGenre
 from funciones import UserForGenre
 from funciones import UsersRecommend
@@ -12,9 +13,9 @@ from funciones import recomendacion_juego
 
 app = FastAPI()
 
-@app.get('/')
+@app.get('/', response_class=HTMLResponse)
 def hola():
-    return """
+    html_content = """
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -38,6 +39,7 @@ def hola():
     </body>
 </html>
 """
+    return HTMLResponse(content=html_content)
 
 
 @app.get("/PlayTimeGenre/{genero}")
