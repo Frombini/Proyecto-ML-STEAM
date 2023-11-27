@@ -15,8 +15,11 @@ app = FastAPI()
 @app.get('/')
 def hola():
     return """
-        <html>
+        <!DOCTYPE html>
+        <html lang="es">
             <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Endpoint-APIs de Francisco Rombini</title>
             </head>
             <body>
