@@ -4,9 +4,9 @@
 
 ## Introduccion
 
-Bienvenidos al proyecto de Machine learning de Steam.
+Bienvenidos a mi proyecto de Machine learning de Steam. Mi nombre es Francisco Rombini, estoy cursando la carrera de Data Science en la academia Soy Henry.
 
-Nuestro desafio planteado para este proyecto consiste en desarrollar un proceso de MLOs que incluya etapas de Ingeniería de Datos con Extraction, Transform and Load (ETL), pasando al Machine Learning, con Exploratory Data Analysis (EDA), junto con la exploración y entrenamiento de modelos, finalizando con el deployment tanto del modelo como endpoints.
+El desafio planteado para este proyecto consiste en desarrollar un proceso de MLOs que incluya etapas de Ingeniería de Datos con Extraction, Transform and Load (ETL), pasando al Machine Learning, con Exploratory Data Analysis (EDA), junto con la exploración y entrenamiento de modelos, finalizando con el deployment tanto del modelo como endpoints.
 
 ## Rol a Desarrollar
 
@@ -55,15 +55,13 @@ Deployment: Conoces sobre Render y tienes un tutorial de Render que te hace la v
 Queremos desarrollar y desplegar un sistema de recomendacion de juegos, teniendo endopints que se consumen online y pueden responder las funciones que nos pidieron para desarrollar
 Esto lo vamos a hacer aprovechando los conjuntos de datos y nos enfocaremos en lograr los siguientes hitos específicos:
 
-Transformación y Limpieza de Datos
-
 Aplicaremos técnicas de Extracción, Transformación y Carga (ETL) y análisis Exploratorio de Datos (EDA)
 
 Diseñaremos e implementaremos una API que será consumida online para responder las necesidades antes mencionadas.
 
-Modelo de Aprendizaje Automático
+Modelo de Machine Learning de recomendacion.
 
-Desarrollaremos un modelo de aprendizaje automático que va a predecir con precisión una recomendacion para juegos, donde agregando el id del item del tipo que queremos que nos recomiende, nos devolvera una lista con los 5 juegos recomendados por el genero del juego agregado.
+Desarrollaremos un modelo de aprendizaje automático que va a predecir una recomendacion para juegos, donde agregando el id del item del tipo que queremos que nos recomiende, nos devolvera una lista con los 5 juegos recomendados por el genero del juego agregado.
 
 Despliegue de la API
 
@@ -83,7 +81,7 @@ Estableceremos una infraestructura de MLOps para navegar sin problemas por todas
 
 - Desarrolo del modelo de aprendizaje:
 
-  [3-Modelo Machine Learning](3-Modelo-ML.ipynb)
+  [3-Modelo Machine Learning](3-Modelo-ML-item-item.ipynb)
 
 
 - Desarrollo de funciones y API's:
@@ -98,7 +96,7 @@ Estableceremos una infraestructura de MLOps para navegar sin problemas por todas
   
 - Aclaracion:
 
-  Para poder correr el 1-ETL-EDA.ipynb hay que descargar los JSON que contiene la informacion en bruto del proyecto y colocarlo        dentro de la carpeta.
+  Para poder correr el primer arhcivo que carga los JSON, los transforma y crea los datasets limpios (1-ETL-EDA.ipynb) hay que descargar los JSON que contiene la informacion en bruto del proyecto y colocarlo dentro de la carpeta del proyecto.
   
   Enlace para descarga de los archivos JSON
 
@@ -159,7 +157,7 @@ Monitoreo y Mantenimiento: Se probaron tanto el modelo como los endpoints para c
 
 Quiero agradecer a mis compañeros de Cohorte que me ayudaron en este proceso de desarrollar mi primer proyecto integrador de la carrera:
 
-Quisiera expresar mi sincero agradecimiento a mis estimados compañeros de Cohorte que desempeñaron un papel fundamental en el desarrollo de mi primer proyecto integrador durante nuestra travesía académica. La colaboración y el apoyo que recibí de cada uno de ustedes fueron invaluables y contribuyeron significativamente al éxito de este emprendimiento.
+Quisiera expresar mi sincero agradecimiento a mis compañeros de Cohorte que desempeñaron un papel fundamental en el desarrollo de mi primer proyecto integrador durante nuestra travesía académica. La colaboración y el apoyo que recibí de cada uno de ustedes fueron invaluables y contribuyeron significativamente al éxito de este emprendimiento.
 
 A lo largo de este proceso, dedicamos un considerable tiempo y esfuerzo para llevar a cabo este proyecto de manera exitosa. Las numerosas sesiones de trabajo que compartimos no solo fortalecieron nuestro equipo, sino que también enriquecieron mi experiencia académica y personal.
 
