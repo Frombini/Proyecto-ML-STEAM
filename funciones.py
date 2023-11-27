@@ -4,9 +4,10 @@ import numpy as np
 '''1.def PlayTimeGenre( genero : str ): Debe devolver año con mas horas jugadas para dicho género.
     Ejemplo de retorno: {"Año de lanzamiento con más horas jugadas para Género X" : 2013}'''
 
-def PlayTimeGenre(genero):
+def PlayTimeGenre(genero:str):
     # Leemos el archivo consulta1.csv para utilizar la funcion
     consulta1 = pd.read_csv('consulta1.csv')
+    genero = genero.capitalize()
     # Filtrar el DataFrame para el género específico
     filtered_df = consulta1[consulta1['Genres'] == genero]
 
@@ -32,6 +33,7 @@ def PlayTimeGenre(genero):
 
 def UserForGenre(genero:str):
     consulta2 = pd.read_csv('consulta2.csv')
+    genero = genero.capitalize()
     # Filtrar el DataFrame por el género dado
     genre_data = consulta2[consulta2['Genres'] == genero]
 
@@ -56,7 +58,7 @@ def UserForGenre(genero:str):
 '''3. def UsersRecommend( año : int ): Devuelve el top 3 de juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos/neutrales)
     Ejemplo de retorno: [{"Puesto 1" : X}, {"Puesto 2" : Y},{"Puesto 3" : Z}]'''
 
-def UsersRecommend(anio: int):
+def UsersRecommend(anio:int):
     # Leemos el archivo consulta1.csv para utilizar la funcion
     consulta3 = pd.read_csv('consulta3.csv')
     if type(anio) != int:
@@ -79,7 +81,7 @@ def UsersRecommend(anio: int):
     Ejemplo de retorno: [{"Puesto 1" : X}, {"Puesto 2" : Y},{"Puesto 3" : Z}]'''
 
 
-def UsersWorstDeveloper(anio):
+def UsersWorstDeveloper(anio:int):
     consulta4 = pd.read_csv('consulta4.csv')
     if type(anio) != int:
         return {"Debes colocar el año en entero, EJ:2015"}
@@ -101,6 +103,7 @@ def UsersWorstDeveloper(anio):
  
 def sentiment_analysis(desarrolladora:str):
     consulta5 = pd.read_csv('consulta5.csv')
+    desarrolladora = desarrolladora.capitalize()
     if type(desarrolladora) != str:
         return "Debes colocar un desarrollador de tipo str, EJ:'Valve'"
     if len(desarrolladora) == 0:
