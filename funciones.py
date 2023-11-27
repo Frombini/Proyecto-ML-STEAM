@@ -156,6 +156,9 @@ def sentiment_analysis(desarrolladora:str):
 def recomendacion_juego(id_juego:int):
     # Cargamos el csv de consulta6 para alimentar la funcion
     modelo_df = pd.read_csv('consulta6.csv')
+    # Verificar si la ID del juego está en la columna "ItemId"
+    if id_juego not in modelo_df["ItemId"].values:
+        return "El id ingresado no existe en el dataset"
     # Buscar el índice del juego con la ID dada
     indice_juego = modelo_df[modelo_df["ItemId"] == id_juego].index[0]
 
