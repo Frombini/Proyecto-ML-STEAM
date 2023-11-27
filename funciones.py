@@ -45,6 +45,17 @@ def PlayTimeGenre(genero:str):
 
 def UserForGenre(genero:str):
     consulta2 = pd.read_csv('consulta2.csv')
+    def juntar_palabras(genres):
+        palabras = genres.split(', ')
+        palabras_juntas = ''.join(palabra.replace(' ', '') for palabra in palabras)
+        return palabras_juntas.capitalize()
+    # Aplicamos la función a la columna 'Genres'
+    consulta1['Genres_juntos'] = consulta1['Genres'].apply(juntar_palabras)
+    consulta1['Genres_juntos'] = consulta1['Genres_juntos']
+    # Dropear la columna 'Genres'
+    consulta1 = consulta1.drop('Genres', axis=1)
+    # Renombrar la columna 'Genres_juntos' a 'Genres'
+    consulta1 = consulta1.rename(columns={'Genres_juntos': 'Genres'})
     genero = genero.capitalize()
     # Filtrar el DataFrame por el género dado
     genre_data = consulta2[consulta2['Genres'] == genero]
@@ -115,6 +126,15 @@ def UsersWorstDeveloper(anio:int):
  
 def sentiment_analysis(desarrolladora:str):
     consulta5 = pd.read_csv('consulta5.csv')
+    # Función para juntar palabras en la columna 'Genres'
+    def juntar_palabras(genres):
+        palabras = genres.split(', ')
+        palabras_juntas = ''.join(palabra.replace(' ', '') for palabra in palabras)
+        return palabras_juntas.capitalize()
+
+    # Aplicar la función a la columna 'Developer'
+    consulta5['Developer'] = consulta5['Developer'].apply(juntar_palabras)
+
     desarrolladora = desarrolladora.capitalize()
     if type(desarrolladora) != str:
         return "Debes colocar un desarrollador de tipo str, EJ:'Valve'"
