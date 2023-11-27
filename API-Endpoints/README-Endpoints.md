@@ -59,7 +59,7 @@ Estos son los años disponibles:
 5-[sentiment_analysis](https://proyecto-ml-steam.onrender.com/sentiment_analysis/Valve) - proyecto-ml-steam.onrender.com/sentiment_analysis/{desarrollador}
 
 Estos son algunos desarrolladores que se pueden buscar:
-'Tripwireinteractive', 'Aceteam', 'Scssoftware', '3909', 'Hopoogamesllc', 'Zachtronics', 'Supergiantgames', 'Minmaxgamesltd.', 'Robotronicgames', 'Telltalegames', 'Cdprojektred', 'Rockstarstudios', 'Trionworldsinc.', 'Remedyentertainment', 'Fromsoftware', 'Chucklefish', 'Valve', 'Ronimogames', 'Trendyentertainment', 'Psyonixinc.', 'Smartlydressedgames', 'Facepunchstudios', 'Arrowheadgamestudios', 'Desconocido', 'Nomoreroominhellteam', 'Squad', 'Mightanddelight', 'Rebellion'
+'Tripwireinteractive', 'Aceteam', 'Scssoftware', '3909', 'Hopoogamesllc', 'Zachtronics', 'Supergiantgames', 'Minmaxgamesltd.', 'Robotronicgames', 'Telltalegames', 'Cdprojektred', 'Rockstarstudios', 'Trionworldsinc.', 'Remedyentertainment', 'Fromsoftware', 'Chucklefish', 'Valve', 'Ronimogames', 'Trendyentertainment', 'Psyonixinc.', 'Smartlydressedgames', 'Facepunchstudios', 'Arrowheadgamestudios', 'Nomoreroominhellteam', 'Squad', 'Mightanddelight', 'Rebellion'
 
 6-[recomendacion_juego](https://proyecto-ml-steam.onrender.com/recomendacion_juego/10) - proyecto-ml-steam.onrender.com/recomendacion_juego/{id_juego}
 
