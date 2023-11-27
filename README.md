@@ -96,7 +96,7 @@ Estableceremos una infraestructura de MLOps para navegar sin problemas por todas
   
 - Aclaracion:
 
-  Para poder correr el 1-ETL-EDA.ipynb hay que descargar los JSON que contiene la informacion en bruto del proyecto y colocarlo        dentro de la carpeta.
+  Para poder correr el primer arhcivo que carga los JSON, los transforma y crea los datasets limpios (1-ETL-EDA.ipynb) hay que descargar los JSON que contiene la informacion en bruto del proyecto y colocarlo dentro de la carpeta del proyecto.
   
   Enlace para descarga de los archivos JSON
 
