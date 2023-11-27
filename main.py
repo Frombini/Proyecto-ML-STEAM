@@ -77,7 +77,7 @@ def hola():
 
 
 @app.get("/PlayTimeGenre/{genero}")
-async def user(genero: str):
+async def PlayTimeGenre(genero: str):
     try:
         resultado = PlayTimeGenre(genero)
         return resultado
@@ -85,7 +85,7 @@ async def user(genero: str):
         return {"error": str(e)}   
     
 @app.get("/UserForGenre/{genero}")
-async def user(genero: str):
+async def UserForGenre(genero: str):
     try:
         resultado = UserForGenre(genero)
         return resultado
@@ -93,7 +93,7 @@ async def user(genero: str):
         return {"error": str(e)}
 
 @app.get("/UsersRecommend/{anio}")
-async def user(anio:int):
+async def UsersRecommend(anio:int):
     try:
         resultado = UsersRecommend(anio)
         return resultado
@@ -101,7 +101,7 @@ async def user(anio:int):
         return {"error": str(e)}
     
 @app.get("/UsersWorstDeveloper/{anio}")
-async def user(anio:int):
+async def UsersWorstDeveloper(anio:int):
     try:
         resultado = UsersWorstDeveloper(anio)
         return resultado
@@ -110,7 +110,7 @@ async def user(anio:int):
     
 
 @app.get("/sentiment_analysis/{desarrolladora}")
-async def user(desarrolladora:str):
+async def sentiment_analysis(desarrolladora:str):
     try:
         resultado = sentiment_analysis(desarrolladora)
         return resultado
@@ -119,7 +119,7 @@ async def user(desarrolladora:str):
     
 
 @app.get("/recomendacion_juego/{id_juego}")
-async def user(id_juego:int):
+async def recomendacion_juego(id_juego:int):
     try:
         resultado = recomendacion_juego(id_juego)
         return resultado
