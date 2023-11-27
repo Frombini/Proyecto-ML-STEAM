@@ -55,15 +55,13 @@ Deployment: Conoces sobre Render y tienes un tutorial de Render que te hace la v
 Queremos desarrollar y desplegar un sistema de recomendacion de juegos, teniendo endopints que se consumen online y pueden responder las funciones que nos pidieron para desarrollar
 Esto lo vamos a hacer aprovechando los conjuntos de datos y nos enfocaremos en lograr los siguientes hitos específicos:
 
-Transformación y Limpieza de Datos
-
 Aplicaremos técnicas de Extracción, Transformación y Carga (ETL) y análisis Exploratorio de Datos (EDA)
 
 Diseñaremos e implementaremos una API que será consumida online para responder las necesidades antes mencionadas.
 
-Modelo de Aprendizaje Automático
+Modelo de Machine Learning de recomendacion.
 
-Desarrollaremos un modelo de aprendizaje automático que va a predecir con precisión una recomendacion para juegos, donde agregando el id del item del tipo que queremos que nos recomiende, nos devolvera una lista con los 5 juegos recomendados por el genero del juego agregado.
+Desarrollaremos un modelo de aprendizaje automático que va a predecir una recomendacion para juegos, donde agregando el id del item del tipo que queremos que nos recomiende, nos devolvera una lista con los 5 juegos recomendados por el genero del juego agregado.
 
 Despliegue de la API
 
