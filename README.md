@@ -177,5 +177,5 @@ Atentamente, Francisco Rombini
 | Lucas Koch | Gabriel Veron | Juan Ochoa |
 | --- | --- | --- |
 | [<img src="https://avatars.githubusercontent.com/lucasgkoch" width=75><br><sub>Lucas Koch</sub>](https://github.com/lucasgkoch) |
-| [<img src="[https://avatars.githubusercontent.com/u/121000341?v=4](https://avatars.githubusercontent.com/u/135461711?v=4)" width=75><br><sub>Gabriel Veron</sub>](https://github.com/EGabrielV) |src="https://avatars.githubusercontent.com/u/133233488?v=4" width=75><br><sub>Gretel Sanchez</sub>](https://github.com/Juangabi8a)
+| [<img src="[https://avatars.githubusercontent.com/u/121000341?v=4](https://avatars.githubusercontent.com/u/135461711?v=4)" width=75><br><sub>Gabriel Veron</sub>]|(https://github.com/EGabrielV) |src="https://avatars.githubusercontent.com/u/133233488?v=4" width=75><br><sub>Juan Ochoa</sub>](https://github.com/Juangabi8a)
 
