@@ -155,9 +155,7 @@ Despliegue en Render (Deploy-Render): Se procedió al despliegue de la API en un
 
 Monitoreo y Mantenimiento: Se probaron tanto el modelo como los endpoints para chequear su rendimiento y velocidad de respuesta  en tiempo real de la API desplegada. 
     
-## Agradecimientos y colaboracion
-
--colaboradores : Gabriel Veron, , Juan Ochoa, Lucas Koch
+## Agradecimientos
 
 Quiero agradecer a mis compañeros de Cohorte que me ayudaron en este proceso de desarrollar mi primer proyecto integrador de la carrera:
 
