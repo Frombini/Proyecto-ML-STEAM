@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 import pandas as pd
 import json
 import numpy as np
@@ -95,18 +95,22 @@ async def user_for_genre(genero:str):
 @app.get("/UsersRecommend/{anio}")
 async def users_recommend(anio:int):
     try:
-        result = UsersRecommend(anio)
-        return result
+        anio_int = int(anio)
     except ValueError:
-        raise HTTPException(status_code=400, detail="El año debe ser un número entero")
+        return {"detail": [{"type": "invalid_input", "msg": "El año debe ser un número entero"}]}
+
+    result = UsersRecommend(anio_int)
+    return result
     
 @app.get("/UsersWorstDeveloper/{anio}")
 async def users_worst_developer(anio:int):
     try:
-        result = UsersRecommend(anio)
-        return result
+        anio_int = int(anio)
     except ValueError:
-        raise HTTPException(status_code=400, detail="El año debe ser un número entero")  
+        return {"detail": [{"type": "invalid_input", "msg": "El año debe ser un número entero"}]}
+
+    result = UsersWorstDeveloper(anio_int)
+    return result
     
 
 @app.get("/sentiment_analysis/{desarrolladora}")
@@ -121,7 +125,9 @@ async def sentiment_analysis_route(desarrolladora:str):
 @app.get("/recomendacion_juego/{id_juego}")
 async def recomendacion_juego_route(id_juego:int):
     try:
-        resultado = recomendacion_juego(id_juego)
-        return resultado
-    except Exception as e:
-        return {"error": str(e)}     
+        id_juego = int(id_juego)
+    except ValueError:
+        return {"detail": [{"type": "invalid_input", "msg": "El año debe ser un número entero"}]}
+
+    result = recomendacion_juego(id_juego)
+    return result     
