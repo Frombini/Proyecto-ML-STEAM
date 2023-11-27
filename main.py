@@ -11,8 +11,11 @@ from funciones import UsersWorstDeveloper
 from funciones import sentiment_analysis
 from funciones import recomendacion_juego
 
+# Declaramos una variable llamada app que la igualamos a fastapi()
 app = FastAPI()
 
+#    Maneja el endpoint raíz ("/") y devuelve una respuesta HTML. En este caso probe solo una version sencilla.
+#    Proporciona un mensaje de bienvenida y lista los endpoints disponibles con enlaces.
 @app.get('/', response_class=HTMLResponse)
 def hola():
     html_content = """
@@ -75,15 +78,18 @@ def hola():
     """
     return HTMLResponse(content=html_content)
 
-
+# Endpoint: /PlayTimeGenre/{genero}
+# Acepta un género como parámetro de ruta y devuelve el resultado de la función 
 @app.get("/PlayTimeGenre/{genero}")
 async def play_time_genre(genero:str):
     try:
         resultado = PlayTimeGenre(genero)
         return resultado
     except Exception as e:
-        return {"error": str(e)}   
-    
+        return {"error": str(e)}  
+     
+ # Endpoint: /UserForGenre/{genero}
+# Acepta un género como parámetro de ruta y devuelve el resultado de la función    
 @app.get("/UserForGenre/{genero}")
 async def user_for_genre(genero:str):
     try:
@@ -91,7 +97,9 @@ async def user_for_genre(genero:str):
         return resultado
     except Exception as e:
         return {"error": str(e)}
-
+    
+# Endpoint: /UsersRecommend/{anio}
+# Acepta un año como parámetro de ruta y devuelve una recomendación para los usuarios 
 @app.get("/UsersRecommend/{anio}")
 async def users_recommend(anio:int):
     try:
@@ -101,7 +109,10 @@ async def users_recommend(anio:int):
 
     result = UsersRecommend(anio_int)
     return result
-    
+
+# Endpoint: /UsersWorstDeveloper/{anio}
+# Acepta un año como parámetro de ruta y devuelve información sobre los usuarios que calificaron los juegos 
+# del peor desarrollador basándose en la función     
 @app.get("/UsersWorstDeveloper/{anio}")
 async def users_worst_developer(anio:int):
     try:
@@ -112,7 +123,8 @@ async def users_worst_developer(anio:int):
     result = UsersWorstDeveloper(anio_int)
     return result
     
-
+# Endpoint: /sentiment_analysis/{desarrolladora}
+# Acepta el nombre de un desarrollador como parámetro de ruta y devuelve resultados
 @app.get("/sentiment_analysis/{desarrolladora}")
 async def sentiment_analysis_route(desarrolladora:str):
     try:
@@ -121,7 +133,9 @@ async def sentiment_analysis_route(desarrolladora:str):
     except Exception as e:
         return {"error": str(e)}  
     
-
+# Endpoint: /recomendacion_juego/{id_juego}
+# Acepta un ID de juego como parámetro de ruta y devuelve recomendaciones para el juego basadas en la función 
+# recomendacion_juego.
 @app.get("/recomendacion_juego/{id_juego}")
 async def recomendacion_juego_route(id_juego:int):
     try:

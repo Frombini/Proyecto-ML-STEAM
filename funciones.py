@@ -44,7 +44,9 @@ def PlayTimeGenre(genero:str):
     Ejemplo de retorno: {"Usuario con más horas jugadas para Género X" : us213ndjss09sdf, "Horas jugadas":[{Año: 2013, Horas: 203}, {Año: 2012, Horas: 100}, {Año: 2011, Horas: 23}]}'''
 
 def UserForGenre(genero:str):
+    #Carga de archivo
     consulta2 = pd.read_csv('consulta2.csv')
+    #Funcion para juntar palabras en este caso generos de dos o mas nombres
     def juntar_palabras(genres):
         palabras = genres.split(', ')
         palabras_juntas = ''.join(palabra.replace(' ', '') for palabra in palabras)
