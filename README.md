@@ -4,9 +4,9 @@
 
 ## Introduccion
 
-Bienvenidos al proyecto de Machine learning de Steam.
+Bienvenidos a mi proyecto de Machine learning de Steam. Mi nombre es Francisco Rombini, estoy cursando la carrera de Data Science en la academia Soy Henry.
 
-Nuestro desafio planteado para este proyecto consiste en desarrollar un proceso de MLOs que incluya etapas de Ingeniería de Datos con Extraction, Transform and Load (ETL), pasando al Machine Learning, con Exploratory Data Analysis (EDA), junto con la exploración y entrenamiento de modelos, finalizando con el deployment tanto del modelo como endpoints.
+El desafio planteado para este proyecto consiste en desarrollar un proceso de MLOs que incluya etapas de Ingeniería de Datos con Extraction, Transform and Load (ETL), pasando al Machine Learning, con Exploratory Data Analysis (EDA), junto con la exploración y entrenamiento de modelos, finalizando con el deployment tanto del modelo como endpoints.
 
 ## Rol a Desarrollar
 
