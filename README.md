@@ -81,7 +81,7 @@ Estableceremos una infraestructura de MLOps para navegar sin problemas por todas
 
 - Desarrolo del modelo de aprendizaje:
 
-  [3-Modelo Machine Learning](3-Modelo-ML-item-tem.ipynb)
+  [3-Modelo Machine Learning](3-Modelo-ML-item-item.ipynb)
 
 
 - Desarrollo de funciones y API's:
