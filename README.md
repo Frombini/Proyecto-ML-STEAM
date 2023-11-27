@@ -159,7 +159,7 @@ Monitoreo y Mantenimiento: Se probaron tanto el modelo como los endpoints para c
 
 -colaboradores : Gabriel Veron, , Juan Ochoa, Lucas Koch
 
-Quiero agradecer a mis compañeros de Cohorte que me ayudaron en este proceso de desarrollar mi primer proyecto integral de la carrera:
+Quiero agradecer a mis compañeros de Cohorte que me ayudaron en este proceso de desarrollar mi primer proyecto integrador de la carrera:
 
 | Johanna Rangel | Uriel Cercero | Gretel Sanchez |
 | --- | --- | --- |
