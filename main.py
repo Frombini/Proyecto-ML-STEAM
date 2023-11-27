@@ -24,8 +24,8 @@ def hola():
                 <title>Endpoint-APIs de Francisco Rombini</title>
                 <style>
                     body {
-                        background-color: #e0e0e0; /* Cambiar a tu color de fondo deseado */
-                        color: #000000; /* Texto negro */
+                        background-color: #f0f0f0; /* Cambiar a tu color de fondo deseado */
+                        color: #333333; /* Texto negro */
                         margin: 20px;
                         font-family: 'Arial', sans-serif; /* Puedes cambiar la fuente si lo deseas */
                     }
