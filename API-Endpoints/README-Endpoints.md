@@ -39,12 +39,12 @@ Url Principial: [Proyecto-ML-Steam](https://proyecto-ml-steam.onrender.com/) - p
 1- [PlayTimeGenre](https://proyecto-ml-steam.onrender.com/PlayTimeGenre/Action) - proyecto-ml-steam.onrender.com/PlayTimeGenre/{genero}
 
 Estos son los generos disponibles:
-Action, Adventure, Animation & Modeling, Audio Production, Casual, Design & Illustration, Early Access, Education, Free to Play, Indie, Massively Multiplayer, Photo Editing, RPG, Racing, Simulation, Software Training, Sports, Strategy, Utilities, Video Production, Web Publishing 
+Action, Adventure, Animation&modeling, Audioproduction, Casual, Design&illustration, Earlyaccess, Education, Freetoplay, Indie, Massivelymultiplayer, Photoediting, Rpg, Racing, Simulation, Softwaretraining, Sports, Strategy, Utilities, Videoproduction, Webpublishing 
 
 2-[UserForGenre](https://proyecto-ml-steam.onrender.com/UserForGenre/Adventure) - proyecto-ml-steam.onrender.com/UserForGenre/{genero}
 
 Estos son los generos disponibles:
-Action, Adventure, Animation & Modeling, Audio Production, Casual, Design & Illustration, Early Access, Education, Free to Play, Indie, Massively Multiplayer, Photo Editing, RPG, Racing, Simulation, Software Training, Sports, Strategy, Utilities, Video Production, Web Publishing 
+Action, Adventure, Animation&modeling, Audioproduction, Casual, Design&illustration, Earlyaccess, Education, Freetoplay, Indie, Massivelymultiplayer, Photoediting, Rpg, Racing, Simulation, Softwaretraining, Sports, Strategy, Utilities, Videoproduction, Webpublishing
 
 3-[UsersRecommend](https://proyecto-ml-steam.onrender.com/UsersRecommend/2012) - proyecto-ml-steam.onrender.com/UsersRecommend/{año}
 
@@ -59,7 +59,7 @@ Estos son los años disponibles:
 5-[sentiment_analysis](https://proyecto-ml-steam.onrender.com/sentiment_analysis/Valve) - proyecto-ml-steam.onrender.com/sentiment_analysis/{desarrollador}
 
 Estos son algunos desarrolladores que se pueden buscar:
-'Valve', 'Desconocido', 'Facepunch Studios', 'Bohemia Interactive', 'Smartly Dressed Games', 'Re-Logic', 'Digital Extremes', 'Tripwire Interactive', 'Gearbox Software,Aspyr (Mac & Linux)', 'Telltale Games', 'Daybreak Game Company', 'Bethesda Game Studios', 'Firaxis Games,Aspyr (Mac, Linux)', 'Edge of Reality', 'Treyarch', 'Avalanche Studios', 'Chucklefish', 'Freejam', 'Coffee Stain Studios', 'The Behemoth', 'Rockstar North'
+'Tripwireinteractive', 'Aceteam', 'Scssoftware', '3909', 'Hopoogamesllc', 'Zachtronics', 'Supergiantgames', 'Minmaxgamesltd.', 'Robotronicgames', 'Telltalegames', 'Cdprojektred', 'Rockstarstudios', 'Trionworldsinc.', 'Remedyentertainment', 'Fromsoftware', 'Chucklefish', 'Valve', 'Ronimogames', 'Trendyentertainment', 'Psyonixinc.', 'Smartlydressedgames', 'Facepunchstudios', 'Arrowheadgamestudios', 'Desconocido', 'Nomoreroominhellteam', 'Squad', 'Mightanddelight', 'Rebellion'
 
 6-[recomendacion_juego](https://proyecto-ml-steam.onrender.com/recomendacion_juego/10) - proyecto-ml-steam.onrender.com/recomendacion_juego/{id_juego}
 

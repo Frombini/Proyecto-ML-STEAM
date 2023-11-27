@@ -7,6 +7,18 @@ import numpy as np
 def PlayTimeGenre(genero:str):
     # Leemos el archivo consulta1.csv para utilizar la funcion
     consulta1 = pd.read_csv('consulta1.csv')
+        # Función para juntar palabras en la columna 'Genres'
+    def juntar_palabras(genres):
+        palabras = genres.split(', ')
+        palabras_juntas = ''.join(palabra.replace(' ', '') for palabra in palabras)
+        return palabras_juntas.capitalize()
+    # Aplicamos la función a la columna 'Genres'
+    consulta1['Genres_juntos'] = consulta1['Genres'].apply(juntar_palabras)
+    consulta1['Genres_juntos'] = consulta1['Genres_juntos']
+    # Dropear la columna 'Genres'
+    consulta1 = consulta1.drop('Genres', axis=1)
+    # Renombrar la columna 'Genres_juntos' a 'Genres'
+    consulta1 = consulta1.rename(columns={'Genres_juntos': 'Genres'})
     genero = genero.capitalize()
     # Filtrar el DataFrame para el género específico
     filtered_df = consulta1[consulta1['Genres'] == genero]
@@ -121,7 +133,7 @@ def sentiment_analysis(desarrolladora:str):
 '''Sistema de recomendación item-item:
     6. def recomendacion_juego( id de producto ): Ingresando el id de producto, deberíamos recibir una lista con 5 juegos recomendados similares al ingresado.'''
 
-def recomendacion_juego(id_juego):
+def recomendacion_juego(id_juego:int):
     # Cargamos el csv de consulta6 para alimentar la funcion
     modelo_df = pd.read_csv('consulta6.csv')
     # Buscar el índice del juego con la ID dada
