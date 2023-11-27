@@ -14,23 +14,27 @@ app = FastAPI()
 
 @app.get('/')
 def hola():
-    return {
-            
-        'mensaje': 'Bienvinidos a mi API, mi nombre es Francisco Rombini de la academia SOYHENRY, de la cohorte DataFT-17',
-        
-        'EJ1': 'https://proyecto-ml-steam.onrender.com/PlayTimeGenre/Action',
-        
-        'EJ2': 'https://proyecto-ml-steam.onrender.com/UserForGenre/Adventure',
-        
-        'EJ3': 'https://proyecto-ml-steam.onrender.com/UsersRecommend/2012',
-        
-        'EJ4': 'https://proyecto-ml-steam.onrender.com/UsersWorstDeveloper/2014',
-        
-        'EJ5': 'https://proyecto-ml-steam.onrender.com/sentiment_analysis/Valve ',
+    return """
+        <html>
+            <head>
+                <title>Endpoint-APIs de Francisco Rombini</title>
+            </head>
+            <body>
+                <h1>Bienvenidos a mi API</h1>
+                <p>Mi nombre es Francisco Rombini de la academia SOYHENRY, soy de la cohorte DataFT-17</p>
 
-        'EJ6': 'https://proyecto-ml-steam.onrender.com/recomendacion_juego/10'
-
-            }
+                <h2>Endpoints Disponibles:</h2>
+                <ul>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/PlayTimeGenre/Action">/PlayTimeGenre/Action</a></li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/UserForGenre/Adventure">/UserForGenre/Adventure</a></li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/UsersRecommend/2012">/UsersRecommend/2012</a></li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/UsersWorstDeveloper/2014">/UsersWorstDeveloper/2014</a></li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/sentiment_analysis/Valve">/sentiment_analysis/Valve</a></li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/recomendacion_juego/10">/recomendacion_juego/10</a></li>
+                </ul>
+            </body>
+        </html>
+    """
 
 @app.get("/PlayTimeGenre/{genero}")
 async def user(genero: str):
