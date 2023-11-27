@@ -77,7 +77,7 @@ def hola():
 
 
 @app.get("/PlayTimeGenre/{genero}")
-async def PlayTimeGenre(genero: str):
+async def play_time_genre(genero:str):
     try:
         resultado = PlayTimeGenre(genero)
         return resultado
@@ -85,7 +85,7 @@ async def PlayTimeGenre(genero: str):
         return {"error": str(e)}   
     
 @app.get("/UserForGenre/{genero}")
-async def UserForGenre(genero: str):
+async def user_for_genre(genero:str):
     try:
         resultado = UserForGenre(genero)
         return resultado
@@ -93,7 +93,7 @@ async def UserForGenre(genero: str):
         return {"error": str(e)}
 
 @app.get("/UsersRecommend/{anio}")
-async def UsersRecommend(anio:int):
+async def users_recommend(anio:int):
     try:
         resultado = UsersRecommend(anio)
         return resultado
@@ -101,7 +101,7 @@ async def UsersRecommend(anio:int):
         return {"error": str(e)}
     
 @app.get("/UsersWorstDeveloper/{anio}")
-async def UsersWorstDeveloper(anio:int):
+async def users_worst_developer(anio:int):
     try:
         resultado = UsersWorstDeveloper(anio)
         return resultado
@@ -110,7 +110,7 @@ async def UsersWorstDeveloper(anio:int):
     
 
 @app.get("/sentiment_analysis/{desarrolladora}")
-async def sentiment_analysis(desarrolladora:str):
+async def sentiment_analysis_route(desarrolladora:str):
     try:
         resultado = sentiment_analysis(desarrolladora)
         return resultado
@@ -119,7 +119,7 @@ async def sentiment_analysis(desarrolladora:str):
     
 
 @app.get("/recomendacion_juego/{id_juego}")
-async def recomendacion_juego(id_juego:int):
+async def recomendacion_juego_route(id_juego:int):
     try:
         resultado = recomendacion_juego(id_juego)
         return resultado
