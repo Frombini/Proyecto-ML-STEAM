@@ -157,7 +157,7 @@ Monitoreo y Mantenimiento: Se probaron tanto el modelo como los endpoints para c
 
 Quiero agradecer a mis compañeros de Cohorte que me ayudaron en este proceso de desarrollar mi primer proyecto integrador de la carrera:
 
-Quisiera expresar mi sincero agradecimiento a mis estimados compañeros de Cohorte que desempeñaron un papel fundamental en el desarrollo de mi primer proyecto integrador durante nuestra travesía académica. La colaboración y el apoyo que recibí de cada uno de ustedes fueron invaluables y contribuyeron significativamente al éxito de este emprendimiento.
+Quisiera expresar mi sincero agradecimiento a mis compañeros de Cohorte que desempeñaron un papel fundamental en el desarrollo de mi primer proyecto integrador durante nuestra travesía académica. La colaboración y el apoyo que recibí de cada uno de ustedes fueron invaluables y contribuyeron significativamente al éxito de este emprendimiento.
 
 A lo largo de este proceso, dedicamos un considerable tiempo y esfuerzo para llevar a cabo este proyecto de manera exitosa. Las numerosas sesiones de trabajo que compartimos no solo fortalecieron nuestro equipo, sino que también enriquecieron mi experiencia académica y personal.
 
