@@ -24,10 +24,10 @@ def hola():
                 <title>Endpoint-APIs de Francisco Rombini</title>
                 <style>
                     body {
-                        font-family: 'Arial', sans-serif; /* Cambiar a la fuente deseada */
-                        background-color: #ffffff; /* Fondo blanco */
+                        background-color: #e0e0e0; /* Cambiar a tu color de fondo deseado */
                         color: #000000; /* Texto negro */
                         margin: 20px;
+                        font-family: 'Arial', sans-serif; /* Puedes cambiar la fuente si lo deseas */
                     }
 
                     h1 {
@@ -46,6 +46,15 @@ def hola():
                     li {
                         margin-bottom: 10px; /* Espacio entre elementos de la lista */
                     }
+
+                    a {
+                        color: #0000FF; /* Color del enlace (azul en este caso) */
+                        text-decoration: none; /* Elimina el subrayado de los enlaces */
+                    }
+
+                    a:hover {
+                        text-decoration: underline; /* Subrayado al pasar el mouse sobre el enlace */
+                    }
                 </style>
             </head>
             <body>
@@ -54,12 +63,12 @@ def hola():
 
                 <h2>Endpoints Disponibles:</h2>
                 <ul>
-                    <li><strong>/PlayTimeGenre/Action:</strong> Devuelve el año con mas tiempo de juego para un género específico.</li>
-                    <li><strong>/UserForGenre/Adventure:</strong> Proporciona detalles sobre el usuario que acumula más horas jugadas para el género dado.</li>
-                    <li><strong>/UsersRecommend/2012:</strong> Devuelve el top 3 de juegos mas recomendados por usuarios para el año dado.</li>
-                    <li><strong>/UsersWorstDeveloper/2014:</strong> Devuelve el top 3 de desarrolladoras con juegos menos recomendados por usuarios para el año dado.</li>
-                    <li><strong>/sentiment_analysis/Valve:</strong> Devuelve análisis de sentimientos para un desarrollador específico.</li>
-                    <li><strong>/recomendacion_juego/10:</strong> Recomienda 5 juegos similares al id de juego ingresado.</li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/PlayTimeGenre/Action">/PlayTimeGenre/Action</a></li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/UserForGenre/Adventure">/UserForGenre/Adventure</a></li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/UsersRecommend/2012">/UsersRecommend/2012</a></li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/UsersWorstDeveloper/2014">/UsersWorstDeveloper/2014</a></li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/sentiment_analysis/Valve">/sentiment_analysis/Valve</a></li>
+                    <li><a href="https://proyecto-ml-steam.onrender.com/recomendacion_juego/10">/recomendacion_juego/10</a></li>
                 </ul>
             </body>
         </html>
