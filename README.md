@@ -152,6 +152,12 @@ Montaje de la API (Local): Se implementó  un entorno virtual para permitir la i
 Despliegue en Render (Deploy-Render): Se procedió al despliegue de la API en un entorno de producción utilizando las plataformas Render y github en la nube. Esto permitió que la funcionalidad estuviera disponible de manera accesible para usuarios finales.
 
 Monitoreo y Mantenimiento: Se probaron tanto el modelo como los endpoints para chequear su rendimiento y velocidad de respuesta  en tiempo real de la API desplegada. 
+
+## Video
+
+Dejo el video proporcionando una explicacion basica del proyecto, y el funcionamiento de los endpoints
+
+Link : https://www.youtube.com/watch?v=MKwIAnMJXJQ
     
 ## Agradecimientos
 
